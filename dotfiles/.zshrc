@@ -124,6 +124,15 @@ alias gco='git checkout'
 alias gd='git diff'
 alias glog='git log --oneline --graph --decorate -20'
 
+# Hermes Agent
+alias hs='hermes setup'
+alias hm='hermes model'
+alias ht='hermes tools'
+alias hg='hermes gateway'
+alias hgs='hermes gateway start'
+alias hu='hermes update'
+alias hd='hermes doctor'
+
 # fnm (Node version manager)
 eval "$(fnm env --use-on-cd)" 2>/dev/null
 
