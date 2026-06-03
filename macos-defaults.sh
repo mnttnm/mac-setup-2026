@@ -8,10 +8,10 @@ set -e
 echo "Applying macOS defaults..."
 
 # --- Keyboard ---
-# Fast key repeat
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
-echo "  ✓ Key repeat set to fastest"
+# Moderate key repeat (lower = faster; 1 is unofficial fastest, System Settings min is 2)
+defaults write NSGlobalDomain KeyRepeat -int 3
+defaults write NSGlobalDomain InitialKeyRepeat -int 25
+echo "  ✓ Key repeat set to moderate"
 
 # --- Accessibility ---
 # Reduce motion (less GPU work, snappier on Intel)

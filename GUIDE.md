@@ -25,10 +25,10 @@
 
 ### Keyboard & Input
 - [x] Disable autocorrect: `System Settings → Keyboard → Input Sources → Edit… → disable all corrections`
-- [x] Set fast key repeat (run in terminal):
+- [x] Set moderate key repeat (run in terminal):
   ```bash
-  defaults write NSGlobalDomain KeyRepeat -int 1
-  defaults write NSGlobalDomain InitialKeyRepeat -int 10
+  defaults write NSGlobalDomain KeyRepeat -int 3
+  defaults write NSGlobalDomain InitialKeyRepeat -int 25
   ```
 - [x] Log out and back in for key repeat settings to take effect
 
